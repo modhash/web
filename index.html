@@ -73,15 +73,5 @@
       </ul>
     </aside>
   </body>
-  <script type="text/javascript">
-    // events tracking with GA
-    // ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);
-    function trackClick() {
-      ga('send', 'event', 'button', 'click', event.target.href, 1)
-    }
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-    }
-  </script>
-  <script src="./service-worker.js" charset="utf-8" async></script>
+
 </html>
